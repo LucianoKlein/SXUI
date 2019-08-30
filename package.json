@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/LucianoKlein/SXUI/issues"
   },
-  "homepage": "https://github.com/LucianoKlein/SXUI#readme"
+  "homepage": "https://github.com/LucianoKlein/SXUI#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
 }
