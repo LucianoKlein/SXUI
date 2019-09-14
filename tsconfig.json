@@ -23,6 +23,9 @@
     "noUnusedLocals": true
   },
   "include": [
+    "types/**/*",
+    "lib/**/*",
+    "icons/**/*"
   ],
   "exclude": [
     "node_modules",
