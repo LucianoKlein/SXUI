@@ -25,5 +25,4 @@ module.exports = {
         '^.+\\.(ts|tsx)$': 'ts-jest',
     },
     setupFilesAfterEnv: ["<rootDir>test/setupTests.js"]
-
 };
