@@ -14,7 +14,7 @@ describe('icon', ()=> {
 
         const component = mount(<Icon name="paypal" onClick={fn}/>);
         component.find('svg').simulate('click');
-        expect(fn2).toBeCalled();
+        expect(fn).toBeCalled();
 
     })
 });
