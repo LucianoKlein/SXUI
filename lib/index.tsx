@@ -1,19 +1,3 @@
-import ReactDOM from 'react-dom';
-import React from 'react';
-import Icon from './icon/icon';
-
-const fn = (e: React.MouseEvent<SVGElement | SVGUseElement>) => {
-    console.log(e);
-    console.log((e.target as SVGUseElement).href);
-
-};
+export {default as Icon} from './icon/icon';
 
 
-ReactDOM.render(<div>
-    <Icon name="Facebook"
-          onClick={fn}
-          onMouseLeave={() => console.log('leave')}
-          onMouseEnter={() => console.log('enter')}
-          onTouchStart={() => console.log('on touch start')}
-          />
-</div>, document.querySelector("#root"));
