@@ -32,7 +32,7 @@ module.exports = {
     // plugins: [
     //     new HtmlWebpackPlugin({
     //         title: 'SXUI',
-    //         template: 'index.html'
+    //         template: 'example.html'
     //     })
     // ],
     // externals: {
